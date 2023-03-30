@@ -1,5 +1,11 @@
+import { Metrix } from "./components/metrics/Metrics";
+
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <Metrix />
+    </div>
+  );
 }
 
 export default App;
